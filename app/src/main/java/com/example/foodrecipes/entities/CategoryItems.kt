@@ -28,5 +28,17 @@ data class CategoryItems(
         @ColumnInfo(name = "strcategorydescription")
         @Expose
         @SerializedName("strCategoryDescription")
-        val strcategorydescription: String)
+        val strcategorydescription: String,
+
+        @ColumnInfo(name = "strveganrecipes")
+        @Expose
+        @SerializedName("strVeganRecipes")
+        val strveganrecipes: String,
+
+        @ColumnInfo(name = "strvegetarianrecipes")
+        @Expose
+        @SerializedName("strVegetarianRecipes")
+        val strvegetarianrecipes: String)
+
+
 
