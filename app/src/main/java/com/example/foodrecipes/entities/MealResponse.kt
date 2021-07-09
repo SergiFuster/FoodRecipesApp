@@ -83,6 +83,25 @@ data class MealsEntity(
     @SerializedName("strIngredient16")
     val stringredient16: String,
     @Expose
+    @SerializedName("strIngredient17")
+    val stringredient17: String,
+    @Expose
+    @SerializedName("strIngredient18")
+    val stringredient18: String,
+    @Expose
+    @SerializedName("strIngredient19")
+    val stringredient19: String,
+    @Expose
+    @SerializedName("strIngredient20")
+    val stringredient20: String,
+    @Expose
+    @SerializedName("strMeasure1")
+    val strmeasure1: String,
+    @Expose
+    @SerializedName("strMeasure2")
+    val strmeasure2: String,
+    @Expose
+    @SerializedName("strMeasure3")
     val strmeasure3: String,
     @Expose
     @SerializedName("strMeasure4")
