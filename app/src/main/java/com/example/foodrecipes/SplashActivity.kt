@@ -52,8 +52,6 @@ class SplashActivity : BaseActivity(), EasyPermissions.RationaleCallbacks,
 
                 for (arr in response.body()!!.categorieitems!!) {
                     getMeal(arr.strcategory)
-                    getMeal(arr.strveganrecipes)
-                    getMeal(arr.strvegetarianrecipes)
                 }
                 insertDataIntoRoomDb(response.body())
 
